@@ -44,7 +44,7 @@ group :development do
   gem 'sqlite3', '~> 1.4'
 end
 
-group :production dobundle
+group :production do
   # PostgreSQL db
   gem 'pg', '~> 1.2', '>= 1.2.3'
 end
